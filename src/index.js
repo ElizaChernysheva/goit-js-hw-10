@@ -29,7 +29,6 @@ const addCounrtyCard = arr => {
 
   const card = arr
     .map(el => {
-      console.log(el);
       const langs = Object.values(el.languages).join(',');
 
       return `<div class="country-name__wrapper">
